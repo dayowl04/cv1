@@ -1,0 +1,155 @@
+h3{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(10, 129, 138);
+}
+.name{
+    font-family: 'Roboto Slab', serif;
+}
+.sleep{
+    color: rgb(10, 129, 138);
+    background: linear-gradient(90deg,red,orange,yellow,green,blue,purple);
+    background-clip:text;
+    -webkit-background-clip:text;
+}
+.sleep:hover{
+    color:transparent;
+    transition: 500ms ease;
+}
+
+body{
+    background-color: rgb(205, 253, 253);
+}
+
+.hobbies{
+    background-image: url(photos/2645853.jpg);
+    padding: 20px;
+    position: relative;
+}
+.game{
+    position: absolute;
+    transform: rotate(15deg);
+    top :25%;
+    right:10%;
+    padding:2px;
+}
+.hob{
+    color:rgb(53, 191, 209)
+}
+.d{
+    color: aqua;
+}
+.d:hover{
+    color:rgb(163, 101, 221)
+}
+
+hr{
+    background-color: white;
+    border: none;
+    border-top: 4px dotted rgb(73, 57, 57);
+    width: 120px;
+    margin: auto;
+}
+
+img{
+    padding-right: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+}
+
+.top1{
+    padding: 20px;
+}
+
+.top2{
+    padding: 20px;
+}
+.top3{
+    padding: 20px;
+}
+
+.top4{
+    padding: 20px;
+}
+.top5{
+    padding: 20px;
+    
+}
+.top6{
+    padding: 2px;
+    padding-left: 20px;
+}
+.ab{
+    float: top left;
+    padding: 5px;
+    border: 2px solid black;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.ab:hover{
+    color: brown;
+}
+
+.ab2{
+    margin-left: 20px;
+}
+
+.copy{
+    font-size: 7px;
+}
+
+textarea{
+    resize: none;
+    border:2px solid black;
+}
+
+input[type=text]{
+    width: 50%;
+    padding: 3px 10px;
+    border-radius: 4px;
+    margin: 8px 0px;
+}
+
+input[type=submit]{
+    border-radius: 4px;
+    padding: 4px;
+}
+.contact{
+    position: relative;
+}
+
+.submit1{
+    background-color: rgb(34, 214, 214);
+    position:absolute;
+    top:86%;
+    right: 45%;
+    
+}
+.new{
+    
+    padding:20px;
+}
+.Return{
+    padding: 0px;
+    text-decoration: none;
+}
+
+.Return:link{
+    color: black;
+    border: 2px solid black;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: rgb(34, 214, 214);
+}
+.Return:visited{
+    color: red;
+    border: 2px solid black;
+    padding: 3px;
+    border-radius: 5px;
+}
+.Return:hover{
+    color: greenyellow;
+}
+.Return:active{
+    color:orchid;
+}
